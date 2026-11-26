@@ -13,6 +13,10 @@ credentials*.json
 .npmrc
 .pypirc
 node_modules/
+dist/
+*.tsbuildinfo
+e2e-*.png
+debug-*.png
 __pycache__/
 .venv/
 venv/

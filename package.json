@@ -1,0 +1,26 @@
+{
+  "name": "balloon-marker-judge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "热气球比赛标志袋无人机视觉判读与成绩发布系统",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "@types/react": "^18.3.32",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
